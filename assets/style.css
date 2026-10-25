@@ -4,3 +4,11 @@
 @media(max-width:760px){.header-inner{min-height:69px}.menu-toggle{display:flex}.nav{display:none;position:absolute;left:0;right:0;top:69px;background:#f5f7f7;padding:17px 22px 24px;border-bottom:1px solid var(--line);box-shadow:0 18px 25px rgba(0,0,0,.06)}.nav.open{display:grid;gap:14px}.nav a{padding:5px 0}.header-pill{display:none}.hero{padding:60px 0 55px}.hero-grid{grid-template-columns:1fr;gap:36px}.hero h1{font-size:clamp(3rem,12vw,4rem)}.demo-stage{min-height:465px}.floating-tag{right:0;bottom:32px}.trust-inner{grid-template-columns:repeat(2,1fr)}.section{padding:65px 0}.cards,.steps{grid-template-columns:1fr 1fr}.pricing{grid-template-columns:1fr}.privacy-band{grid-template-columns:1fr;gap:25px}.faq-grid{grid-template-columns:1fr}.footer-grid{flex-direction:column}.legal{padding:52px 0 80px}}
 @media(max-width:500px){.container{width:min(100% - 28px,1120px)}.cards,.steps{grid-template-columns:1fr}.feature-card,.step-card,.plan{padding:24px}.hero h1{letter-spacing:-.052em}.lead{font-size:1rem}.action-row .btn{width:100%}.trust-inner{gap:8px}.trust-inner div{font-size:.78rem;padding:12px 7px}.demo-stage{border-radius:27px;padding:28px 16px}.device{max-width:320px}.privacy-band{padding:27px 22px;border-radius:22px}.footer-links{gap:15px}.legal-section{padding-top:22px;margin-top:23px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}.btn:hover{transform:none}}
+
+
+/* Dezente, responsive Projektlinks im Footer */
+.footer-projects{display:flex;align-items:center;flex-wrap:wrap;gap:14px 22px;margin-top:28px;padding-top:23px;border-top:1px solid rgba(255,255,255,.16)}
+.footer-projects-title{color:#b7d7d4;font-size:.87rem;font-weight:700}
+.footer-projects-links{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+.footer-projects-links a{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid rgba(255,255,255,.24);border-radius:999px;color:#e5f5f3;font-size:.85rem;font-weight:600;text-decoration:none;transition:background .18s,border-color .18s}
+.footer-projects-links a:hover,.footer-projects-links a:focus-visible{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.55);text-decoration:none}
